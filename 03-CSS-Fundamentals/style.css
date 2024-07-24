@@ -6,11 +6,13 @@
 .container {
   width: 800px;
   margin: 0 auto;
+  /* position: relative; */
 }
 /* page section */
 body {
   color: #444;
   font-family: sans-serif;
+  position: relative;
 }
 
 .main-header {
@@ -186,4 +188,15 @@ nav a:link {
 
 nav a:link {
   display: inline-block;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 50px;
+  right: 50px;
 }
