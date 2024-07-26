@@ -19,8 +19,9 @@ body {
 .sale {
   background-color: red;
   position: absolute;
+  display: inline-block;
   top: -10px;
-  left: -15px;
+  left: -35px;
   padding: 5px 20px;
   font-weight: bold;
   color: white;
